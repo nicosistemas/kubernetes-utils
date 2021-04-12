@@ -1,0 +1,27 @@
+Instalation:
+
+1- Download file:
+
+wget https://github.com/kubernetes-sigs/kustomize/releases/download/kustomize%2Fv4.0.5/kustomize_v4.0.5_linux_amd64.tar.gz
+
+2- extrat tar gz:
+
+tag zxf kustomize_v4.0.5_linux_amd64.tar.gz
+
+3- Move to bin directory:
+
+sudo mv kustomize /usr/local/bin/kustomize
+
+4- Set permission:
+
+sudo chmod +x kustomize
+
+Check:
+
+kustomize version
+
+{Version:kustomize/v4.0.5 GitCommit:9e8e7a7fe99ec9fbf801463e8607928322fc5245 BuildDate:2021-03-08T20:53:03Z GoOs:linux GoArch:amd64}
+
+
+Source:
+https://github.com/kubernetes-sigs/kustomize/releases
